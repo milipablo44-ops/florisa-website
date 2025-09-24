@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="fPIF-cMvQgVB9Y5wEVbmErQg6RKr_3Ld9AC8x9W212s" />
+    <title>florisa.com</title>
+</head>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="logof.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logoo4.png" alt=""></a>
+        <ul class="navmenu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">page</a></li>
+            <li><a href="#">docs</a></li>
+
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+    
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="main-home">
+        <div class="main-text">
+            <h5>winter collection</h5>
+            <h1>New Winter <br> Collection 2025</h1>
+            <p>There's Nothing like Trend</p>
+
+            <a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <div class="down-arrow">
+            <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'  ></i> </a>
+        </div>
+    </section>
+
+    <section class="trending-products" id="trending">
+        <div class="center-text">
+            <h2>our trending <span>products</span></h2>
+        </div>
+        <div class="products">
+            <div class="row">
+                <img src="robe cravatte noir.jpg" alt="">
+                <div class="product-text">
+                    
+                </div>
+                <div class="heart-icon">
+                    <i><i class='bx bx-heart'  ></i> </i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i>
+                    <i class='bx  bxs-star-half'  style='color: #ff8c00;'></i>   
+                </div>
+
+                <div class="price">
+                    <h4>Robe Cravatte 👗(Chemise en soie satiné+Robe) Taille: 40/42</h4>
+                    <p>75 DT</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="image-container">
+                    <img id="mainImage" src="tenue baje.jpg" alt="">
+                    <button class="change-btn" onclick="changeImage()"><i class='bx bx-right-arrow-alt'  ></i> </button>
+                </div>
+                <script>
+                function changeImage(){
+                    const img= document.getElementById('mainImage');
+                    if(img.getAttribute("src")==="tenue baje.jpg"){
+                        img.setAttribute('src',"tenue noir.jpg");
+                    }
+                    else if(img.getAttribute('src')==="tenue noir.jpg"){
+                        img.setAttribute('src',"tenue rouge.jpg");
+                    }
+                    else if(img.getAttribute('src')==="tenue rouge.jpg"){
+                        img.setAttribute('src',"tenue vert.jpg");
+                    }
+                    else{
+                        img.setAttribute('src',"tenue baje.jpg")
+                    }
+                }
+                </script>
+            
+            
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="heart-icon">
+                    <i><i class='bx bx-heart'  ></i> </i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i>
+                    <i class='bx  bxs-star-half'  style='color: #ff8c00'></i>   
+                </div>
+
+                <div class="price">
+                    <h4>Tenues 4 Couleurs (beige🤎🟠,noir🖤,rouge❤️,vert💚) Toutes Les Tailles</h4>
+                    <p>x1 = 80 DT</p>
+                </div>
+                  
+            </div>
+            <div class="row">
+                <div class="image1-container">
+                    <img id="mainImage1" src="robe asala blanc.jpg" alt="">
+                    <button class="change-btn1" onclick="changeImage1()"><i class='bx bx-right-arrow-alt'  ></i> </button>
+                </div>
+                <script>
+                function changeImage1(){
+                    const img1= document.getElementById('mainImage1');
+                    if(img1.getAttribute("src")==="robe asala blanc.jpg"){
+                        img1.setAttribute('src',"robe asala noir.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala noir.jpg"){
+                        img1.setAttribute('src',"robe asala rouge foncé.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala rouge foncé.jpg"){
+                        img1.setAttribute('src',"robe asala vert.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala vert.jpg"){
+                        img1.setAttribute('src',"robe asala vert anoncé.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala vert anoncé.jpg"){
+                        img1.setAttribute('src',"robe asala orange.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala orange.jpg"){
+                        img1.setAttribute('src',"robe asala orange clair.jpg");
+                    }
+                    else if(img1.getAttribute('src')==="robe asala orange clair.jpg"){
+                        img1.setAttribute('src',"robe asala bleu ciel.jpg");
+                    }
+                    else{
+                        img1.setAttribute('src',"robe asala blanc.jpg")
+                    }
+                }
+                </script>
+           
+
+            
+                
+                <div class="product-text">
+                    
+                </div>
+                <div class="heart-icon">
+                    <i><i class='bx bx-heart'  ></i> </i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i>
+                    <i class='bx  bxs-star-half'  style='color: #ff8c00'></i>   
+                </div>
+
+                <div class="price">
+                    <h4>Robe Asala (Beaucoup Des Couleurs) <br> Toutes Les Tailles</h4>
+                    <p>x1 = 90 DT</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="image-container2">
+                    <img id="mainImage2" src="serwal noir.jpg" alt="">
+                    <button class="change-btn2" onclick="changeImage2()"><i class='bx bx-right-arrow-alt'  ></i> </button>
+                </div>
+                <script>
+                function changeImage2(){
+                    const img2= document.getElementById('mainImage2');
+                    if(img2.getAttribute("src")==="serwal noir.jpg"){
+                        img2.setAttribute('src',"serwal noir1.jpg");
+                    }
+                    else if(img2.getAttribute('src')==="serwal noir1.jpg"){
+                        img2.setAttribute('src',"serwal blanc.jpg");
+                    }
+                    else if(img2.getAttribute('src')==="serwal blanc.jpg"){
+                        img2.setAttribute('src',"serwal blanc1.jpg");
+                    }
+                    else if(img2.getAttribute('src')==="serwal blanc1.jpg"){
+                        img2.setAttribute('src',"serwal bej.jpg");
+                    }
+                    else if(img2.getAttribute('src')==="serwal bej.jpg"){
+                        img2.setAttribute('src',"serwal bej1.jpg");
+                    }
+                    else{
+                        img2.setAttribute('src',"serwal noir.jpg")
+                    }
+                }
+                </script>
+                <div class="product-text">
+                    
+                </div>
+                <div class="heart-icon">
+                    <i><i class='bx bx-heart'  ></i> </i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i> 
+                    <i class='bx bx-star'  ></i>
+                    <i class='bx  bxs-star-half'  style='color: #ff8c00'></i>   
+                </div>
+
+                <div class="price">
+                    <h4>Pantalon Large (Noir🖤,Gris🔘,Beige🤎🟠)</h4>
+                    <p>75 DT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="logoo4.png" alt="">
+                <p> Tel: 53571231</p>
+                <p>Gmail: florisa.mode@gmail.com</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/florisa.mode"><i class='bx bxl-facebook'  style='color:#000000'></i> </a>
+                    <a href="https://www.instagram.com/florisa.mode"><i class='bx bxl-instagram'  style='color:#000000'></i> </a>
+                    <a href="https://www.tiktok.com/search?q=florisa.mode&t=1758660962054"><i class='bx bxl-tiktok'  style='color:#000000'></i> </a>
+                </div>
+            </div>
+            <div class="third-info">
+                <h4>Shop :</h4>
+                <p>Women's Shopping </p>
+            </div>
+        </div>
+    </section>
+    <script src="java.js"></script>
+
+</body>
+</html>
